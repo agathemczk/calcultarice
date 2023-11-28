@@ -105,6 +105,7 @@ int main() {
                 return 0;
 
             default :
+                getchar();
                 printf("Erreur\n");
                 break;
         }
