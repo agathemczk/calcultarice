@@ -36,7 +36,6 @@ void percentage (double first_number, double second_number) {
     printf("Le résultat de votre opération est : %.2f.\n",result);
 }
 
-
 int main() {
     double first_number;
     double second_number;
@@ -104,12 +103,14 @@ int main() {
                 printf("Au revoir !\n");
                 return 0;
 
+            case 'Q':
+                printf("Au revoir !\n");
+                return 0;
+
             default :
                 getchar();
                 printf("Erreur\n");
                 break;
         }
-
     }
-
 }
