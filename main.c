@@ -51,7 +51,8 @@ int main() {
         printf("'n1 ^ n2' pour la puissance\n");
         printf("'n1 r 1' pour la racine carrée\n");
         printf("'n1 p n2' pour le pourcentage\n");
-        printf("'n1 q n2' pour quitter\n");
+        printf("Ou alors 'résultat opérateur n3' pour faire des opérations en chaine\n");
+        printf("Ou 'n1 q n2' pour quitter\n");
         printf("Entrez votre opération : ");
 
         scanf("%lf %c %lf", &first_number, &operator, &second_number);
